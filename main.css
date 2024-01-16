@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 120vh;
-    background-image: url(images/background.png);
+    background-image: url(images/original.png);
     background-size: cover;
     background-position: center;
 }
@@ -179,7 +179,7 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 
 }
-/* -------------portfolio---------- */
+/* -------------Mywork---------- */
 #portfolio{
     padding: 50px 20px;
 }
@@ -191,9 +191,11 @@ nav ul li a:hover::after{
 }
 .work{
     border-radius: 10px;
+    border: 2px solid #fff;
     position: relative;
     overflow: hidden;
     transition: transform 0.5s;
+    
 }
 .work img{
     width: 100%;
